@@ -1,0 +1,102 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+}
+
+.content {
+    width: 100%;
+    max-width: 700px;
+    margin: 70px auto;
+    padding: 20px;
+    background-color: rgb(220, 233, 254);
+    box-shadow: 0 50px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1,
+h4 {
+    text-align: center;
+    color: #030202;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #050404;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #ffd7d7;
+    font-weight: bold;
+}
+
+td {
+    background-color: #fbfdeb;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 2px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.5s;
+    color: white;
+}
+
+.btn.delete {
+    background-color: #593ce7;
+}
+
+.btn.delete:hover {
+    background-color: #3a2899;
+}
+
+.btn.update {
+    background-color: #3dd351;
+}
+
+.btn.update:hover {
+    background-color: #2a9638;
+}
+
+.btn.add {
+    background-color: #cc2e8f;
+    border: none;
+    cursor: pointer;
+}
+
+.btn.add:hover {
+    background-color: #a32372;
+}
+
+.form {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#content {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
